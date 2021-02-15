@@ -1,0 +1,44 @@
+body{
+    color: white;
+    background-color: rgb(142, 161, 161);
+   
+}
+
+.cont{
+        
+        color: rgb(22, 22, 22);
+}
+
+.type{
+    padding: 10px;
+    text-align: center;
+    height: 400px;
+    border: solid red 2px;
+}
+
+.race{
+    padding: 10px;
+    text-align: center;
+    height: 400px;
+    border: solid red 2px;
+}
+
+.f{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+    color:black
+}
+
+.input{
+    width: 400px;
+    height: 40px;
+    margin-top: 50px;
+    padding-top: 2px;
+    text-align: center;
+    border: solid red 2px;
+}
