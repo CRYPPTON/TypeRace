@@ -22,31 +22,44 @@
         <div class="row">
           <div class="col-sm-5  type">
             <h3>Type the text below</h3>
-            <canvas id="myCanvas" width="800" height="150"
-            style="border:1px solid #d3d3d3;">
-            
-            </canvas>
+            <p id="text_type">
+
+            </p>
             
           
-            <input class="h5 input"  oninput="getText(this)"></input>
+            <input class="h5 input" id="inputTXT" onkeydown="delete_(event,this.value.length)"  oninput="getText(this)"></input>
           
           </div>
           <div class="col-sm-7  race">
-            <h3>Column 2</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit...</p>
+            <canvas id="canvas_"></canvas>
+
+            <div class="container-fluid">
+              <div class="row">
+                <div class="col-sm-6  info">
+                  <p class="col-sm-6 WPM" >WPM</p>
+                  <p class="col-sm-6 WPM" id="wpm">---</p>
+                </div>
+                <div class="col-sm-6 info">
+                  <p class="col-sm-6 accuracy">ACCURACY</p>
+                  <p class="col-sm-6 WPM" id = "acc">---</p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
       <footer class="bg-light text-center text-lg-start f">
         <!-- Copyright -->
         <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2)">
-          © 2020 Copyright:
+          © 2021 Copyright:
           <a class="text-dark" href="#"><strong> Nikola Nikolic</strong> </a>
         </div>
         <!-- Copyright -->
       </footer>
      
-    
+    <script src="./js/typeInfo.js"></script>
     <script src="./js/typeRace.js"></script>
+    <script src="./js/moveCar.js"></script>
+
 </body>
 </html>

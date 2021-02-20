@@ -12,7 +12,7 @@ body{
 .type{
     padding: 10px;
     text-align: center;
-    height: 400px;
+    height: 200;
     border: solid red 2px;
 }
 
@@ -37,8 +37,48 @@ body{
 .input{
     width: 400px;
     height: 40px;
-    margin-top: 50px;
+    margin-top: 20px;
     padding-top: 2px;
     text-align: center;
+    border: solid rgb(255, 0, 0) 2px;
+}
+
+#text_type{
+    margin-left: 10%;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    width:80%;
     border: solid red 2px;
+}
+
+#canvas_{
+    height: 40%;
+    width: 900px;
+    border: solid red 2px;
+}
+
+.info{
+    height: 250px;
+
+    border: solid red 2px;
+}
+
+
+.accuracy{
+    font-size: 50px;
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.WPM{
+    font-size: 45px;
+    margin-top: 10%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
