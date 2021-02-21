@@ -1,7 +1,6 @@
-var text = "Zdravo kako ste kako "
+var text = "So close, no matter how far Couldn't be much more from the heart Forever trusting who we are And nothing else matters Never opened myself this way Life is ours, we live it our way All these words, I don't just say And nothing else matters"
 var err = 0;
 var mistake = 0;
-
 var speed = 0;
 var distance = 900;
 
@@ -35,7 +34,7 @@ function getText(input){
 
             moveCar()
         }else{
-            mistake++                                   // counting for accuracy must be better
+            mistake++                                   // counting for accuracy must be better!!!!***
             err++
             $(`#${len}`).css("color", "red");
             $(`#inputTXT`).css("background", "red");
